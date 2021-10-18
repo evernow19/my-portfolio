@@ -1,7 +1,28 @@
 .bg-img {
     background-image: url("colors.jpg");
-    min-height: 380px;
+    min-height: 768px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+}
+.wrapper{background: url('colors.jpg') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img {
+    border-radius: 100%;
+   
+}
+.profile-picture {
+    margin-top: 100px;
+}
+.page-introduction {
+    margin-top: 160px;
+    margin-left: 0;
+    text-align: center;
+}
+h4, .title {
+    text-align: center;
 }
