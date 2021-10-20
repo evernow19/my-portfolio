@@ -1,3 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h4, .title {
+    text-align: center;
+}
+img {
+    border-radius: 100%;
+}
 .bg-img {
     background-image: url("colors.jpg");
     min-height: 768px;
@@ -11,18 +20,11 @@
     -o-background-size: cover;
     background-size: cover;
 }
-img {
-    border-radius: 100%;
-   
-}
 .profile-picture {
     margin-top: 100px;
 }
 .page-introduction {
     margin-top: 160px;
     margin-left: 0;
-    text-align: center;
-}
-h4, .title {
     text-align: center;
 }
