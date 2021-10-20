@@ -5,14 +5,21 @@ h4,h2, .title {
     text-align: center;
 }
 h2 {
-    margin: 15px auto;
+    margin-top: 80px;
 }
 img {
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
 }
+hr {
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
 
-
-.bg-img {
+.bg-img{
     background-image: url("colors.jpg");
     min-height: 708px;
     background-position: center;
@@ -33,13 +40,29 @@ img {
 .page-introduction {
     margin-top: 160px;
     margin-left: 0;
+    margin-bottom: 30px;
     text-align: center;
 }
+.icons {
+    width: 30px;
+    height: 30px;
+}
 .col-sm-6 {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .skills-list {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.projects {
+    background-image: url('geometry.jpg');
+    min-height: 668px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    border-top: 2px solid black;
+   
 }
