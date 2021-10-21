@@ -7,26 +7,19 @@ h4,h2, .title {
 h2 {
     margin-top: 80px;
 }
-img {
-    
-    border-radius: 100%;
-}
-hr {
-    border: none;
-    height: 1px;
-    color: black;
-    background-color: black;
+li {
+    width: 140px;
 }
 
 .bg-img{
-    background-image: url("colors.jpg");
+    background-image: url("images/colors.jpg");
     min-height: 608px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     border-bottom: 2px solid black;
 }
-.wrapper{background: url('colors.jpg') no-repeat   center center fixed;
+.wrapper{background: url('images/colors.jpg') no-repeat   center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,9 +29,10 @@ hr {
 .profile-picture {
     margin-top: 20px;
     margin-bottom: 40px;
+    border-radius: 100%;
 }
 .page-introduction {
-    margin-top: 160px;
+    margin-top: 100px;
     margin-left: 0;
     margin-bottom: 30px;
     text-align: center;
@@ -55,10 +49,10 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 .projects {
-    background-image: url('geometry.jpg');
+    background-image: url('images/geometry.jpg');
     min-height: 708px;
     background-position: center;
     background-repeat: repeat;
@@ -99,17 +93,12 @@ hr {
 .cd-top {
     position: fixed;
     bottom: 20px;
-    bottom: var(--cd-back-to-top-margin);
     right: 20px;
-    right: var(--cd-back-to-top-margin);
     display: inline-block;
     height: 40px;
-    height: var(--cd-back-to-top-size);
     width: 40px;
-    width: var(--cd-back-to-top-size);
     box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
     background-color: rgba(198, 84, 232, 0.8);
-    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
 }
 
