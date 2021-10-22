@@ -13,7 +13,7 @@ li {
 
 .bg-img{
     background-image: url("images/colors.jpg");
-    min-height: 608px;
+    min-height: 708px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ li {
 }
 
 .profile-picture {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 100%;
 }
