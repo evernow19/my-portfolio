@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
     font-family: 'Playfair Display', serif;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
 }
 p {
@@ -16,15 +16,20 @@ p {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 li {
     width: 140px;
 }
+
 .my-skills {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
-
+.break-line {
+    margin-left: 60px;
+    margin-right: 60px;
+}
 .bg-img{
     background-image: url("images/colors.jpg");
     min-height: 708px;
@@ -75,10 +80,7 @@ li {
     border-top: 2px solid black;
    
 }
-.project-images {
-    width: 400px;
-    height: 400px;
-}
+
 
 .scroll {
     color: #fff;
@@ -126,4 +128,9 @@ li {
 }
 .contact {
     margin: 80px 180px;
+}
+@media (max-width: 800px) {
+ p {
+     font-size: 14px;
+ }
 }
