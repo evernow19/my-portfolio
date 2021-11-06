@@ -31,14 +31,14 @@ li {
     margin-right: 60px;
 }
 .bg-img{
-    background-image: url("images/colors.jpg");
+    background-image: url("images/colors4.png");
     min-height: 708px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     border-bottom: 2px solid black;
 }
-.wrapper{background: url('images/colors.jpg') no-repeat   center center fixed;
+.wrapper{background: url('images/colors4.png') no-repeat   center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,12 +123,5 @@ li {
  p {
      font-size: 14px;
  }
- .bg-img {
-    background-image: url("images/colors4.png");
-    min-height: 708px;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    border-bottom: 2px solid black;
- }
+
 }
