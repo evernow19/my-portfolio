@@ -71,16 +71,6 @@ li {
     margin-top: 60px;
     margin-bottom: 200px;
 }
-.projects {
-    background-image: url('images/geometry.jpg');
-    min-height: 708px;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    border-top: 2px solid black;
-   
-}
-
 
 .scroll {
     color: #fff;
@@ -132,5 +122,14 @@ li {
 @media (max-width: 800px) {
  p {
      font-size: 14px;
+    
+ }
+ .bg-img {
+    background-image: url("images/colors3.png");
+   
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    border-bottom: 2px solid black;
  }
 }
