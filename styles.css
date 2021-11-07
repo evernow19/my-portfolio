@@ -31,7 +31,7 @@ li {
     margin-right: 60px;
 }
 .bg-img {
-    
+    background-image: url("images/colors.png");
     min-height: 720px;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,11 +120,11 @@ li {
 .contact {
     margin: 80px 180px;
 }
-@media (max-width: 480px) {
+@media (max-width: 680px) {
  p {
      font-size: 14px;
  }
- body {
- background-image: url("images/colors.png");
+ .bg-img {
+ background-image: url("images/colors4.png");
  }
 }
