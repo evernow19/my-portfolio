@@ -124,4 +124,18 @@ li {
  p {
      font-size: 14px;
  }
+ .bg-img {
+    background-image: url("images/colors4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid black;
+}
+.wrapper {
+    background: url('images/colors4.png') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 }
