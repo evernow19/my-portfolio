@@ -125,9 +125,11 @@ li {
      font-size: 14px;
  }
  .bg-img {
- background-image: url("images/colors5.png") repeat-x;
+     max-width: 100%;
+     height: auto;
+ background-image: url("images/colors.png") repeat-x;
  background-repeat: no-repeat;
- background-size:cover !important;
+ background-size: cover;
  background-position: center;
  overflow: hidden;
  }
