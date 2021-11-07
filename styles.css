@@ -31,6 +31,7 @@ li {
     margin-right: 60px;
 }
 .bg-img {
+    background-image: url("images/colors4.png");
     min-height: 720px;
     background-position: center;
     background-repeat: no-repeat;
