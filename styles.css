@@ -30,15 +30,16 @@ li {
     margin-left: 60px;
     margin-right: 60px;
 }
-.bg-img{
+.bg-img {
     
-    min-height: 708px;
+    min-height: 720px;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 2px solid black;
 }
-.wrapper{background: url('images/colors4.png') no-repeat   center center fixed;
+.wrapper {
+    background: url('images/colors4.png') no-repeat   center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,11 +120,11 @@ li {
 .contact {
     margin: 80px 180px;
 }
-@media (max-width: 800px) {
+@media (max-width: 480px) {
  p {
      font-size: 14px;
  }
  body {
- background-image: url("images/colors4.png");
+ background-image: url("images/colors.png");
  }
 }
