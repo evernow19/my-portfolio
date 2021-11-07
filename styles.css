@@ -124,6 +124,6 @@ li {
      font-size: 14px;
  }
 .wrapper {
-    background-image: url("images/colors4.png");
+    background-image: url("images/colors4.png") no-repeat center center fixed;
 }
 }
