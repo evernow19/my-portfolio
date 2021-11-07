@@ -31,7 +31,6 @@ li {
     margin-right: 60px;
 }
 .bg-img {
-    background-image: url("images/colors.png");
     min-height: 720px;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,5 +123,7 @@ li {
  p {
      font-size: 14px;
  }
-
+.wrapper {
+    background-image: url("images/colors4.png");
+}
 }
