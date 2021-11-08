@@ -39,7 +39,7 @@ li {
     border-bottom: 2px solid black;
 }
 .wrapper {
-    background: url('images/colors4.png') no-repeat   center center fixed;
+    background: url('images/colors4.png') no-repeat   center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -113,17 +113,19 @@ li {
     background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
     background-color: rgba(198, 84, 232, 0.8);
 }
-.btn{
+.project-buttons{
     background: rgb(198, 124, 231);
     float: right;
 }
 .contact {
     margin: 80px 180px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+.contact-button {
+    background: rgb(198, 124, 231);
+    
+    
+}
+@media (max-width: 580px) {
  p {
      font-size: 14px;
  }
