@@ -128,9 +128,16 @@ li {
 }
 .contact-button {
     background: rgb(198, 124, 231);
-    
-    
 }
+ footer {
+   margin-bottom: 60px; 
+}    
+footer .social-links a {
+    margin: 0 20px;
+    color: black;
+    font-size: 22px;
+}    
+
 @media (max-width: 990px) {
     
     .page-introduction {
