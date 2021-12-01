@@ -78,7 +78,9 @@ li {
     margin-top: 60px;
     margin-bottom: 200px;
 }
-
+.project-images {
+    border: solid 6px white;
+}
 .scroll {
     color: #fff;
     margin-top: 100px
@@ -129,7 +131,7 @@ li {
 .contact-button {
     background: rgb(198, 124, 231);
 }
- footer {
+footer {
    margin-bottom: 60px; 
 }    
 footer .social-links a {
